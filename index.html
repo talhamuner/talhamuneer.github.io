@@ -1,25 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Talha Muneer - Portfolio</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f4; }
-    h1 { color: #333; }
-    .project { background: white; padding: 20px; margin: 20px 0; border-radius: 10px; }
-  </style>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <h1>Talha Muneer</h1>
-  <p>System Administrator | IT Graduate | Portfolio</p>
-  
-  <div class="project">
-    <h2>Project 1</h2>
-    <p>Description of your first project.</p>
-  </div>
+  <header>
+    <h1>Talha Muneer</h1>
+    <p>System Administrator | IT Graduate</p>
+  </header>
 
-  <div class="project">
-    <h2>Project 2</h2>
-    <p>Description of your second project.</p>
-  </div>
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m Talha, an IT professional passionate about system administration, virtualization, and network security. I enjoy working with technologies like VMware, Windows Server, Zimbra, and Linux. I'm currently pursuing my Master's in Computer Science.</p>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Intrusion Detection System (FYP)</h3>
+      <p>Final year university project implementing a network intrusion detection system using open-source tools.</p>
+    </div>
+
+    <div class="project">
+      <h3>Zimbra Mail Server Deployment</h3>
+      <p>Deployed and managed Zimbra mail server with backup, spam filtering, and domain integration.</p>
+    </div>
+
+    <div class="project">
+      <h3>Proxmox + VMware Lab</h3>
+      <p>Created a virtualized lab using VMware ESXi and Proxmox VE to simulate enterprise server environments.</p>
+    </div>
+  </section>
+
+  <section class="resume">
+    <h2>Resume</h2>
+    <a href="resume.pdf" class="btn" download>Download Resume</a>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: talha@example.com</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/talhamuneer" target="_blank">linkedin.com/in/talhamuneer</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Talha Muneer</p>
+  </footer>
 </body>
 </html>
